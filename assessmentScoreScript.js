@@ -1,6 +1,7 @@
 <script>
   $(document).ready(function () {
     // loop through all li elements to count how many are "Yes" and "No"
+    console.log("OliveMinds Assessment Scripts - Haloweave");
     var yesCount = 0;
     var noCount = 0;
     $('#child-well-being-assessment-answers li').each(function () {
@@ -48,5 +49,6 @@
 
     // Display the counts in the show-count div
     $('#show-count').text('Yes: ' + yesCount + ', No: ' + noCount);
+    console.log("Counts : Yes - " + yesCount + " | No - " + noCount);
   });
 </script>
