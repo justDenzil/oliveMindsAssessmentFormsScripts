@@ -32,7 +32,7 @@
     
     // update the HTML section with the appropriate score and message breakdown
     var whatsappMessage = encodeURIComponent("Hey, I just took this test: " + message);
-    $(".child-well-being-assessment").html(
+    $("#child-well-being-assessment").html(
       "<div class='result-container'><div class='image-container'><img src='" +
       photo +
       "'/></div><div class='assessment-score'><p>Your mental health score is: <div class='score' style='color:" +
